@@ -1,0 +1,27 @@
+{
+  "name": "synergy-utilities",
+  "version": "0.1.0",
+  "description": "Standalone library of utility functions.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bretthfarris/synergy-utilities.git"
+  },
+  "author": "Brett H. Farris",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bretthfarris/synergy-utilities/issues"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "homepage": "https://github.com/bretthfarris/synergy-utilities#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.0.2"
+  }
+}
