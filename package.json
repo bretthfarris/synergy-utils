@@ -8,17 +8,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bretthfarris/synergy-utilities.git"
+    "url": "git+https://github.com/bretthfarris/synergy-utils.git"
   },
   "author": "Brett H. Farris",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/bretthfarris/synergy-utilities/issues"
+    "url": "https://github.com/bretthfarris/synergy-utils/issues"
   },
   "directories": {
     "test": "test"
   },
-  "homepage": "https://github.com/bretthfarris/synergy-utilities#readme",
+  "homepage": "https://github.com/bretthfarris/synergy-utils#readme",
   "dependencies": {
     "dotenv": "^7.0.0",
     "mongoose": "^5.4.20"
