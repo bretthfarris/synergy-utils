@@ -1,5 +1,5 @@
 {
-  "name": "synergy-utilities",
+  "name": "synergy-utils",
   "version": "0.1.0",
   "description": "Standalone library of utility functions.",
   "main": "index.js",
