@@ -19,7 +19,12 @@ describe('Database Tests', function() {
   //Before starting the test, create a sandboxed database connection
   //Once a connection is established invoke done()
   before(function (done) {
-    db.connect('test', console.error);
+    db.connect({
+      server: process.env.MONGODB_SERVER,
+      database: "test",
+      username: process.env.MONGODB_USERNAME,
+      password: process.env.MONGODB_PASSWORD
+    }, console.error);
     const connection = db.connection;
     connection.on('error', console.error.bind(console, 'connection error'));
     connection.once('open', function() {
