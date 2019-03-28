@@ -19,7 +19,10 @@
     "test": "test"
   },
   "homepage": "https://github.com/bretthfarris/synergy-utilities#readme",
-  "dependencies": {},
+  "dependencies": {
+    "dotenv": "^7.0.0",
+    "mongoose": "^5.4.20"
+  },
   "devDependencies": {
     "chai": "^4.2.0",
     "mocha": "^6.0.2"
