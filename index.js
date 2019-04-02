@@ -1,5 +1,6 @@
 module.exports = {
-    date: require('./lib/date.js'),
-    db: require('./lib/db.js'),
-    logger: require('./lib/logger.js')
+    date: require('./lib/date'),
+    db: require('./lib/db'),
+    logger: require('./lib/logger'),
+    requestHelper: require('./lib/request-helper')
 };
