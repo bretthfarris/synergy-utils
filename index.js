@@ -3,10 +3,11 @@ const uuidv4 = require('uuid/v4');
 
 module.exports = {
   "aws": require('./lib/aws'),
-  "date": require('./lib/date'),
+  "dateHelper": require('./lib/date-helper'),
   "db": require('./lib/db'),
   "logger": require('./lib/logger'),
   "routeHelper": require('./lib/route-helper'),
+  "urlHelper"; require('./lib/url-helper'),
   "uuidv1": function() {
     return uuidv1();
   },
