@@ -5,6 +5,7 @@ module.exports = {
   "aws": require('./lib/aws'),
   "dateHelper": require('./lib/date-helper'),
   "db": require('./lib/db'),
+  "fileHelper": require('./lib/file-helper'),
   "logger": require('./lib/logger'),
   "routeHelper": require('./lib/route-helper'),
   "urlHelper": require('./lib/url-helper'),
