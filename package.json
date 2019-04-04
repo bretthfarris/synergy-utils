@@ -1,7 +1,7 @@
 {
   "name": "synergy-utils",
-  "version": "1.6.1",
-  "description": "Standalone library of utility functions.",
+  "version": "1.7.0",
+  "description": "Standalone library of utility functions for Synergy Cloud Solutions.",
   "main": "index.js",
   "scripts": {
     "test": "mocha --recursive"
