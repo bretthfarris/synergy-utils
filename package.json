@@ -1,6 +1,6 @@
 {
   "name": "synergy-utils",
-  "version": "1.0.3",
+  "version": "1.6.1",
   "description": "Standalone library of utility functions.",
   "main": "index.js",
   "scripts": {

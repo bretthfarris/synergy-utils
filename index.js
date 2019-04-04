@@ -7,7 +7,7 @@ module.exports = {
   "db": require('./lib/db'),
   "logger": require('./lib/logger'),
   "routeHelper": require('./lib/route-helper'),
-  "urlHelper"; require('./lib/url-helper'),
+  "urlHelper": require('./lib/url-helper'),
   "uuidv1": function() {
     return uuidv1();
   },
