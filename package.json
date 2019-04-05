@@ -1,6 +1,6 @@
 {
   "name": "synergy-utils",
-  "version": "1.7.1",
+  "version": "1.8.0",
   "description": "Standalone library of utility functions for Synergy Cloud Solutions.",
   "main": "index.js",
   "scripts": {
